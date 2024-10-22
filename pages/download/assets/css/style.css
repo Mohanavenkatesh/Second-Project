@@ -1,0 +1,353 @@
+
+/* ******************* download css start *********************** */
+
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+.grid{
+   width: 80%;
+   margin: auto;
+
+}
+    
+ 
+ /********************************************************************/
+
+ @media screen and (max-width:500px) {
+
+    .nav{
+        padding-bottom: 130px;
+    }
+
+    .nav .grid .main .lists{
+     display: block;
+     position: relative;
+     top: 90px;
+     right: 100px;
+
+    }
+
+    .nav .grid .main .logo{
+        position: relative;
+        left: 80px;
+    }
+   
+    .nav .grid .main .lists p{ 
+     padding: 15px;
+    }
+
+     footer .footer-btm-00{
+        display: none;   
+    }
+
+    .footer-btm-1{
+        display: none;
+    }
+
+    footer .footer{
+        display: block;
+        padding: 40px 20px;
+    }
+
+    footer .footer-one {
+        text-align: center;
+    }
+
+    footer p{
+    text-align: center;
+    }
+
+    footer h5{
+        text-align: center;
+        color: #919496;
+        }
+        
+   .footer .footer-six {
+       display: flex;
+       justify-content: center;
+       padding: 20px;
+   }
+
+   .alldevices li{
+    display: block;
+    align-items: center;
+    padding: 5px;
+}
+     
+  }
+/* ***************************************************************************** */
+ .nav
+ {
+    background-color: black;
+    
+ }
+ 
+ .main .logo{
+     margin-top: 20px;
+ }
+ .main{
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+     padding: 0px 15px;
+ }
+ 
+ .main .lists{
+     display: flex;  
+ }
+ 
+ .main .lists a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .main .lists a:hover{
+     text-decoration: none;
+     color: #1ED760;
+ }
+ 
+ .main .lists p{
+     font-family: Helvetica, Arial, sans-serif;
+     margin: 0;
+     padding: 28px 17px;
+     font-weight: 700;
+ }
+
+
+/*-------------- navigation bar end ------------------- */
+
+
+/*-------------- centercontent start --------------------*/
+
+.center-first{
+    background-color: rgb(25, 230, 140);
+    padding: 40px 15px 104px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.center-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-sec .center-sec-one{
+    margin: 25px 15px 15px;
+}
+
+.center-sec .center-sec-two h1{
+   font-size: 45px;
+   font-weight: 700;
+   padding-bottom: 0px;
+}
+
+.center-sec .center-sec-three p{
+    margin-bottom: 24px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+.center-sec .center-sec-four img{
+width: 354px;
+height: 104px;
+}
+
+.center-sec .center-sec-four img:hover{
+   transform: translatey(-5%);
+   transition: ease 0.35s;
+}
+
+
+.center-sec .center-sec-five {
+   padding: 48px 0px 0px 0px ;
+}
+
+.center-sec .center-sec-five a{
+   
+   color: black;
+   font-weight: 600;
+ }
+
+/*-------------- centercontent end --------------------*/
+
+/*--------------  Platform start ---------------------*/
+
+.platforms h2{
+    text-align: center;
+    font-weight: 800;
+    padding: 50px 0px 10px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.platforms p{
+    text-align: center;
+    font-weight: 550;
+    padding: 10px 0px 10px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.platforms-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 0px 50px 0px;
+}
+
+/*--------------  Platform End ---------------------*/
+
+/*--------------  alldevices start ---------------------*/
+.alldevices{
+    padding: 100px 0px;
+    color:white;
+    background-color: #222326;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.alldevices h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+}
+
+.alldevices li{
+    display: inline-block;
+    padding-right: 20px;
+    font-weight: 600;  
+}
+
+.alldevices li:hover{
+    color: #1ED760 ;
+}
+
+/*--------------  alldevices End ---------------------*/
+
+
+
+/*------------------------ footer start ---------------------- */
+footer{
+
+    background-color:#000000;
+    color: white;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    background-color:#000000;
+}
+
+.footer .footer-two a{
+ color: white;
+ text-decoration: none;
+ font-weight: 750;
+}
+
+.footer .footer-two a:hover{
+    color:#1ED760;
+    text-decoration: none;
+}
+
+
+.footer .footer-three .three a{
+    color: white;
+    text-decoration: none;
+    font-weight: 750;
+   }
+   
+   .footer .footer-three .three a:hover{
+       color:#1ED760;
+       text-decoration: none;
+   }
+
+   .footer .footer-four .four a{
+    color: white;
+    text-decoration: none;
+    font-weight: 750;
+   }
+   
+   .footer .footer-four .four a:hover{
+       color:#1ED760;
+       text-decoration: none;
+   }
+
+   .footer .footer-five .five a{
+    color: white;
+    text-decoration: none;
+    font-weight: 750;
+   }
+   
+   .footer .footer-five .five a:hover{
+       color:#1ED760;
+       text-decoration: none;
+   }
+
+   .footer .footer-six {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    
+   }
+   
+   .footer .footer-six  i:hover{
+       color:#1ED760;
+       
+   }
+
+.footer-btm-00{
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    align-items: center;
+    color: #919496;
+    font-size: 10px;
+    font-family: Helvetica,Arial, sans-serif;
+    
+}
+
+.footer-btm-00 a:hover{
+    color: #1ED760; 
+}
+
+.footer-btm-11 li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+    font-size: 12px;
+    color: #919496;
+}
+
+.footer-btm-11 li:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.footer-btm-11 {
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    color: #919496;
+    padding-bottom: 70px;
+}
+
+.footer-btm-11 p:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+/*------------------------ footer end ---------------------- */
+
+/* ******************* download css end *********************** */

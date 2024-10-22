@@ -1,0 +1,453 @@
+/* ******************* support in css end *********************** */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+  padding: 0px 20px 30px 20px; 
+  background-color: #121212;  
+
+}
+
+.gradient-color{
+    background-image: linear-gradient(rgb(9, 147, 9) black);
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+header .Spotify_Full_Logo{
+position: relative;
+top: 38px;
+}
+
+header .one button{
+    padding: 15px 19px;
+    border-radius: 25px;
+    border: none;
+    font-family: Helvetica,Arial, sans-serif;
+    font-weight: 700;
+}
+
+header .two button{
+    padding: 15px 19px;
+    border-radius: 25px;
+    border: none;
+    font-family: Helvetica,Arial, sans-serif;
+    font-weight: 700;
+}
+
+header .account button{
+    border: none;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+/* hovers */
+
+header .i i:hover{
+    transform: scale(1.1);
+  color: #1ed760;
+}
+
+header .one button:hover{
+    transform: scale(1.1);
+    background-color: #1ed760;
+}
+
+header .two button:hover{
+    transform: scale(1.1);
+    background-color: #1ed760;
+}
+
+.account-hover{
+    display: none;
+    position: absolute;
+    background-color: #6a6a6a;
+    padding: 20px;
+    border-radius: 8px;
+    right: 0px;
+    bottom: -70px;
+}
+
+.account:hover .account-hover{
+    display: block;
+}
+
+.account:hover button{
+   color: #1ed760;
+ 
+}
+
+.right-side-content{
+    display: flex;
+    justify-content:end ;
+    gap: 30px;
+    /* position: relative; */
+    align-items: center;
+    z-index: -1;
+}
+
+
+.sml-cards{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    gap: 20px;
+    
+}
+
+.sml-cards a{
+    color: white;
+    text-decoration: none;
+}
+
+.sml-cards .A{
+    border-radius: 6px;
+    padding: 5px 10px ;
+    background-color: #AF2896;
+}
+
+.sml-cards .B{
+    border-radius: 6px;
+    padding: 5px 5px ;
+    background-color: #537AA1;
+}
+
+.sml-cards .C{
+    padding: 10px 5px 30px 5px;
+    border-radius: 6px;
+    background-color: #8C1932;
+}
+
+.sml-cards .D{
+    padding: 5px 5px 35px 5px;
+    border-radius: 6px;
+    background-color: #B06239;
+}
+
+.sml-cards .E{
+    padding: 5px 5px ;
+    border-radius: 6px;
+    background-color: #006450;
+}
+
+.sml-cards .F{
+    padding: 5px 5px 30px 5px;
+    border-radius: 6px;
+    background-color: #757575;
+}
+
+
+
+
+.sml-cards .A img{
+   position: relative;
+   left: 110px;
+   bottom: 10px;
+   border-radius:7px
+}
+
+.sml-cards .B img{
+    position: relative;
+    left: 130px;
+    bottom: 5px;
+    border-radius:7px
+}
+
+.sml-cards .C img{
+    position: relative;
+   left: 120px;
+   bottom: -15px;
+   border-radius:7px
+}
+
+.sml-cards .D img{
+    position: relative;
+    left: 120px;
+    bottom: -20px;
+    border-radius:7px
+}
+
+.sml-cards .E img{
+    position: relative;
+    left: 125px;
+    bottom: -5px;
+    border-radius:7px
+}
+
+.sml-cards .F img{
+    position: relative;
+   left: 120px;
+   bottom: -20px;
+   border-radius:7px
+}
+
+
+
+
+
+
+.topdiv{
+    background-image: linear-gradient(rgb(47, 46, 46) , black);
+display: block;
+justify-items: center;
+
+}
+
+.contents{
+    margin: 0px auto;
+   max-width: 628px;
+    font-family: Helvetica,Arial, sans-serif;
+    color: white;
+    padding: 30px 0px 80px 0px;
+    background-image: linear-gradient(rgb(47, 46, 46) , black);
+    align-items: center;
+}
+
+.contents .main-two-p p{
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+
+.contents .main-two-h1{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.contents .main-two-pp{
+    font-size: 23px;
+    margin: 20px 0px ;
+}
+
+.contents .main-two-pp a {
+    color: white;
+}
+
+
+
+.contents .main-two-input{
+    padding: 20px 0px;
+}
+.contents .main-two-input input{
+width: 100%;
+height: 30px;
+border-radius: 5px;
+padding: 10px 5px;
+background-color: #000000;
+border-color: white;
+}
+
+
+.contents-two{
+    padding: 50px 0px 50px 0px;
+    max-width: 628px;
+    font-family: Helvetica,Arial, sans-serif;
+    color: white;
+    margin: 0px auto;
+  
+}
+
+.contents-two h1{
+    padding-bottom: 30px;
+}
+
+.contents-two a{
+    color: white;
+    text-decoration: none;
+}
+
+.contents-two p{
+    padding: 16px 0px;
+}
+
+
+
+.topdiv-two{
+    background-color: #2a2a2a;
+    padding: 0px 20px;
+    
+}
+
+.topdiv-three{
+    background-color: #141414;
+    align-content: center;
+    padding: 0px 20px;
+}
+
+
+.topdiv-three .contents-three{
+    margin: 0px auto;
+    padding: 90px 16px;
+    max-width: 628px;
+    font-family: Helvetica,Arial, sans-serif;
+    color: white;
+   align-content: center;
+}
+
+.topdiv-three .contents-three h1{
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.topdiv-three .contents-three  p{
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+  
+
+.topdiv-three .contents-three button{
+   color: rgb(0, 0, 0);
+   background-color:#1ed760;
+   padding: 20px 50px;
+   border: none;
+   border-radius: 30px;
+   font-weight: 750;
+   font-size: 15px;
+   font-family: Helvetica,Arial, sans-serif;
+}
+
+.topdiv-three .contents-three button:hover{
+transform: scale(1.1);
+}
+
+
+.contents-three .btn{
+    display: flex;
+   justify-content: center;
+}
+
+
+footer{
+    padding: 140px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+
+footer .footer-two a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-three a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-four a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer .footer-two h5{
+ color: #8F8F8F;
+ padding-bottom: 30px;
+}
+
+footer .footer-three h5{
+    color: #8F8F8F;
+    padding-bottom: 30px;
+}
+
+footer .footer-four h5{
+    color: #8F8F8F;
+    padding-bottom: 30px;
+}
+
+footer .footer-two p{
+    padding-bottom: 30px;
+    font-weight: 750;
+   }
+   
+   footer .footer-three p{
+    padding-bottom: 30px;
+    font-weight: 750;
+   }
+   
+   footer .footer-four p{
+    padding-bottom: 30px;
+    font-weight: 750;
+   }
+/***********************************************************/
+
+   @media screen and (min-width:0px) and (max-width:500px){
+
+   .nav .main{
+    padding-bottom: 150px;
+    }    
+
+    .right-side-content{
+    display: none;
+    }
+
+    header .Spotify_Full_Logo{
+        position: relative;
+        right: 30px;
+       padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .topdiv .contents {
+        
+       position: relative;
+       top: 50px;
+       padding: 20px 20px 20px 20px;
+    }
+
+    .topdiv-two{
+        position: relative;
+        top: 50px;
+    }
+    .sml-cards{
+        display: grid;
+        grid-template-columns:auto ;
+    }
+
+    footer{
+        padding: 20px 20px;
+        display: block;
+    }
+
+    footer .footer-one {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    footer p{
+              text-align: center;
+    }
+
+    footer h5{
+        text-align: center;
+    }
+
+    footer .footer-five {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+  
+}
+/* *********************************************************** */
+
+/* ******************* support in css end *********************** */

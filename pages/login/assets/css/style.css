@@ -1,0 +1,209 @@
+
+
+/* *******************log in css start *********************** */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial, sans-serif;
+    
+}
+/* center one*/
+
+.bg-div{
+    padding: 30px 0px 50px 0px ;
+    color: white;
+    background-image: linear-gradient(rgb(47, 46, 46) , black);
+}
+
+.bg-div-center{
+    background-image: linear-gradient(rgb(47, 46, 46) , black);
+    margin: 0 auto;
+    max-width: 730px;
+    padding: 0px 0px 50px 0px ;
+    border-radius: 10px;
+}
+
+.bg-div-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+}
+
+.bg-div-center .bg-content-div-logo img {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.bg-div-center .bg-content-div-h1 h1{
+   font-size: 31px;
+    margin-bottom: 40px;
+}
+
+.bg-content-div-google-button img{
+    width: 20px;    
+    position: relative;
+    right: 45px;
+    top: 5px;
+}
+
+.bg-content-div-fb-button img{
+    border-radius: 50%;
+    position: relative;
+    right: 38px;
+    top: 5px;
+}
+
+.bg-content-div-apple-button img{
+    position: relative;
+    right: 49px;
+    top: 5px;
+}
+
+.bg-content-div button{
+    height: 50px;
+    width: 350px;
+    border-color: rgba(167, 162, 162, 0.9);
+    border-radius: 30px;    
+    background-color:#121212;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid rgba(167, 162, 162, 0.9);
+}
+
+.bg-content-div button:hover{
+     border-color: white;
+   
+}
+
+
+.bg-content-div-google-button{
+    padding-bottom: 10px;
+
+}
+
+.bg-content-div-fb-button {
+    padding-bottom: 10px;
+}
+
+.bg-content-div-apple-button{
+    padding-bottom: 10px;
+}
+
+.bg-content-div-num-button button{
+    padding-bottom: 0px;
+}
+
+/* center two*/
+
+
+.bg-content-div-two .bg-inputype-one p {
+   
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    right: 100px;
+    padding: 20px 0px;
+}
+
+.bg-content-div-two .bg-inputype-one input{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #121212;
+    border-color: white;
+   
+}
+
+.bg-content-div-two .bg-inputype-two {  
+    align-content: center;
+}
+
+.bg-content-div-two .bg-inputype-two p {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    right: 130px;
+    padding: 20px 0px;
+}
+
+.bg-content-div-two .bg-inputype-two input{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #121212;
+    border-color: white;
+}
+
+.bg-content-div-two .bg-content-div-btm a{
+color: white;
+}
+
+
+.bg-content-div-two .bg-loginbutton button{
+    background-color: #1ed760;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 150px;
+
+    position: relative;
+    right: 10px;
+}
+
+
+.bg-content-div-two .bg-loginbutton button:hover{
+    transform: scale(1.1);
+}
+
+.bg-content-div-two .bg-loginbutton{
+    padding: 20px 0px 10px 20px;
+}
+
+.bg-content-div-two h5{
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+}
+
+
+/* footer */
+footer{
+text-align: center;
+background-color:#121212 ;
+padding: 30px 30px;
+color:#B3B3B3;
+font-size: 12px;
+}
+
+footer a{
+    color:#B3B3B3;
+}
+
+/* copy paste */
+
+hr{
+   
+        margin: 32px 100px;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+        border-image: initial;
+        border-top: 1px solid rgb(41, 41, 41);
+
+}
+
+/* *******************log in css end *********************** */
